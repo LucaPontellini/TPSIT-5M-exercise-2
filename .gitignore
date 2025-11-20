@@ -1,0 +1,196 @@
+# Generic ignores
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+.vscode/
+.idea/
+*.swp
+*~.nib
+*.bak
+*.tmp
+*.log
+
+# OS generated files
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnp/
+.pnp.js
+.dist/
+build/
+coverage/
+.next/
+out/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+venv*/
+pip-log.txt
+pip-delete-this-directory.txt
+pytest_cache/
+.coverage
+htmlcov/
+.dist-info/
+*.egg-info/
+*.egg
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+target/
+build/
+out/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+dependency-reduced-pom.xml
+release.properties
+bin/
+logs/
+*.log
+.settings/
+*.iml
+.classpath
+.project
+.idea/
+*.ipr
+*.iws
+
+# Gradle
+.gradle/
+build/
+gradle-app.setting
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# C/C++
+*.o
+*.obj
+*.so
+*.exe
+*.dll
+*.out
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# JetBrains
+.idea/
+*.iml
+out/
+
+# Go
+bin/
+*.exe
+*.test
+vendor/
+
+# Rust
+/target/
+**/*.rs.bk
+
+# Ruby
+*.gem
+*.rbc
+.bundle/
+vendor/bundle/
+log/
+tmp/
+*.pid
+*.seed
+*.sqlite3
+
+# PHP/Composer
+/vendor/
+/composer.lock
+
+# Database
+*.sqlite
+*.db
+*.sql
+*.sql.gz
+
+# Archives
+*.zip
+*.tar.gz
+*.7z
+*.rar
+
+# Secrets and keys
+*.key
+*.pem
+*.crt
+secrets.yml
+credentials.yml.enc
+*.p12
+
+# Docker
+docker-compose.override.yml
+docker-compose.*.yml
+.env.*.local
+**/.docker
+**/Dockerfile*
+
+# IDE/tool specific
+.vagrant/
+.mvn/
+.project
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Logs and runtime
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.pid
+*.seed
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Custom for student projects (build artifacts, temp)
+dist/
+bin/
+tmp/
+cache/
