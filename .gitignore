@@ -194,3 +194,6 @@ dist/
 bin/
 tmp/
 cache/
+
+# Virtual environments
+.venv/

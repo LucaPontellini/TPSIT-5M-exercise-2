@@ -49,7 +49,7 @@ class EsprReg:
 
         """Verifica se la stringa rispetta il pattern. Restituisce 'match' oppure 'mismatch'"""
         
-        if self._compiled.fullmatch(text):
+        if re.match(self._compiled, text):
             return "match"
         else:
             return "mismatch"
